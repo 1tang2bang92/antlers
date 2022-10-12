@@ -3,13 +3,20 @@
 version = 3
 
 [[package]]
-name = "antlers"
-version = "0.1.0"
-
-[[package]]
 name = "antlers-cli"
 version = "0.1.0"
 
 [[package]]
 name = "antlers-codegen"
+version = "0.1.0"
+
+[[package]]
+name = "antlers-core"
+version = "0.1.0"
+dependencies = [
+ "antlers-codegen",
+]
+
+[[package]]
+name = "antlers-example-project"
 version = "0.1.0"
