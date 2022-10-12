@@ -1,6 +1,6 @@
 [workspace]
 members = [
     "antlers",
-    "antlers-cli",
     "antlers-codegen"
+    "antlers-core",
 ]
